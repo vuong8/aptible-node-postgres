@@ -17,6 +17,6 @@ jobs:
       with:
         type: docker
         app: aptible-node-postgres
-        environment: dev
+        environment: dev-env
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
