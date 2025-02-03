@@ -20,4 +20,3 @@ jobs:
         environment: dev-env
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
-	      # connection-str: ${{ secrets.APTIBLE_CONNECTION_STR }}
